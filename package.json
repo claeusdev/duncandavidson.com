@@ -1,0 +1,26 @@
+{
+  "name": "duncandavidson.com",
+  "version": "1.0.0",
+  "description": "Duncan Davidson website",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncan/duncandavidson.com.git"
+  },
+  "author": {
+    "name": "Duncan Davidson",
+    "email": "me@duncandavidson.com",
+    "url": "https://duncandavidson.com"
+  },
+  "homepage": "https://github.com/duncan/duncandavidson.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.4"
+  },
+  "dependencies": {
+    "html-minifier": "^3.5.21"
+  }
+}
