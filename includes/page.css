@@ -1,0 +1,25 @@
+body.page>header>h1 {
+    font-size: 42px;
+}
+
+body.page>header>img.hero {
+    width: 100%;
+}
+
+body.page>header>p.lead {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1em;
+}
+
+body.page>header>p.note {
+    font-size: 16px;
+    color: #aaa;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+body.page>article {
+    font-weight: 300;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}

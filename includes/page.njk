@@ -1,0 +1,24 @@
+---
+layout: main
+body: page
+---
+{% set css %}{% include "page.css" %}{% endset %}
+<style type="text/css">{{ css | cssmin | safe }}</style>
+<header>
+{% if hero %}
+<img class="hero" src="{{ hero }}">
+{% endif %}
+<h1>{{ title }}</h1>
+{% if lead %}
+<p class="lead">{{ lead }}</p>
+{% endif %}
+{% if note %}
+<p class="note">{{ note | safe }}</p>
+{% endif %}
+</header>
+<article>
+{{ content | safe }}
+</article>
+<footer>
+
+</footer>
