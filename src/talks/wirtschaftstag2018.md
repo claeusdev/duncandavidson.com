@@ -91,11 +91,13 @@ Furthermore, in crafting these incentives in a way that promotes smaller investo
 
 Let’s look elsewhere in Europe.
 
-The Paris startup scene is interesting. So is the one in the Netherlands. However, there’s one more country I’d like to call out specifically as a hotspot and that’s Portugal. 
+The Paris startup scene is interesting. So is the one in the Netherlands. However, there’s one more country I’d like to call out specifically as a hotspot and that’s Portugal.
 
-Yes, one of the PIGS. You all know the financial issues that Southern Europe has had, but despite those Portugal’s startup scene is growing like no other in the South. 
+Yes, one of the PIGS.
 
-Portugal seems to understand that velocity is an important part of growing a startup ecosystem and it’s encouraging building velocity with both visa access and tax schemes that encourage investment. Furthermore, they’ve invested in making sure that they are a visible destination for startups, including ensuring that the WebSummit conference with its 70,000 attendees remains in Lisbon for the next ten years.
+You all know the financial issues that Southern Europe has had, but despite those Portugal’s startup scene is growing like no other in the South. Portugal seems to understand that velocity is an important part of growing a startup ecosystem and it’s encouraging building velocity with both visa access and tax schemes that encourage investment. 
+
+Furthermore, they’ve invested in making sure that they are a visible destination for startups, including ensuring that the WebSummit conference with its 70,000 attendees remains in Lisbon for the next ten years.
 
 Keep your eye on them. I think they’ve got promising times ahead.
 

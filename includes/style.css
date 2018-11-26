@@ -113,7 +113,6 @@ body {
     padding-right: 10px;
     margin-left: auto;
     padding-left: 10px;
-    margin-top: 100px;
     margin-bottom: 75px;
     background-color: rgb(55, 74, 94);
     color: #ddd;
@@ -134,6 +133,23 @@ li {
 }
 
 a:hover {
+    color: #fff;
+}
+
+div#nav {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 25px;
+    font-size: 25px;
+}
+
+div#nav a {
+    border: 0;
+    color: #888;
+}
+
+div#nav a:hover {
+    border: 0;
     color: #fff;
 }
 
