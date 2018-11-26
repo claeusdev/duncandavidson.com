@@ -16,27 +16,27 @@ My name is Duncan Davidson, and I’m the CTO in Residence at Microsoft for Star
 
 My family and I are happy to be here.
 
-Microsoft sees startups as an important part of the global innovation engine. 
+**Microsoft sees startups as an important part of the global innovation engine.** 
 
-**Startups inspire us by pushing the envelope of what’s possible and building products that improve our personal and professional lives.** They are, quite literally, helping to shape the future. And, of course, this isn’t just high-minded idealism. Startups are building the most exciting applications that will run on the globally distributed computing platforms, of which Azure is one. 
+Startups inspire us by pushing the envelope of what’s possible and building products that improve our personal and professional lives. They are, quite literally, helping to shape the future. And, this isn’t just high-minded idealism. Startups are building the most exciting applications that will run on the globally distributed computing platforms, of which Azure is one.
 
-The better startups do, the better we do.
+**The better startups do, the better we do.**
 
 After a few years of experimentation, we’ve identified a unique way in how we can help startups. As you know, Microsoft has a very mature sales organization that has contacts with a massive number of businesses on the planet. In addition to selling our products, we serve as a channel for independent software vendors to connect to our customers and to help sell other companies products is a core part of our efforts.
 
 Our Microsoft ScaleUp program provides business-to-business startups access to this channel. We’re helping qualified startups that have a product-market fit develop the skills they need to become partners for our channels and we lower the barriers for them to participate.
 
-It’s a win-win situation for all involved and a benefit that no other cloud vendor currently can provide.
+**It’s a win-win situation for everyone** and a benefit that no other cloud vendor currently can provide.
 
-We also host our ScaleUp program in eight global offices: Seattle, London, Berlin, Tel Aviv, Bangalore, Beijing, Shanghai, and Sydney. In our Berlin office, we work with startups from across Europe, including Portugal, France, Switzerland, the Netherlands, Finland, Austria, and of course, here in Germany.
+We host our ScaleUp program in eight global offices: Seattle, London, Berlin, Tel Aviv, Bangalore, Beijing, Shanghai, and Sydney. In our Berlin office, we work with startups from across Europe, including Portugal, France, Switzerland, the Netherlands, Finland, Austria, and of course, here in Germany.
 
-We host community spaces — we call them Reactors — in Seattle, San Francisco, New York, London, and Sydney. In these spaces, we host meetups, hackathons, and more. Between our experiences with these community spaces and our ScaleUp program around the world, we’ve be able to build up a global perspective on the startup ecosystem around the world.
+We also host community spaces — we call them Reactors — in Seattle, San Francisco, New York, London, and Sydney. In these spaces, we host meetups, hackathons, and more. Between our experiences with these community spaces and our ScaleUp program around the world, we’ve be able to build up a global perspective on the startup ecosystem around the world.
 
 When we established our program by opening spaces around the globe, we did so with the thesis that the differences in each region required an individualized approach. Moreover, that these differences would be so significant that there needed to be a very customized strategy for each area.
 
 I no longer believe that this thesis is correct. 
 
-The fundamentals of how startups grow and develop are more common than not. Yes, there are essential differences in culture, financing, and go-to-market challenges. These do matter. 
+**The fundamentals of how startups grow and develop are more common than not.** Yes, there are essential differences in culture, financing, and go-to-market challenges. These do matter. 
 
 For example, Silicon Valley has a great deal of acceptance for trying to go big on an idea and failing, and China has recently taken this acceptance to a new level. On the other hand, as you know, Europe typically favors a much more conservative approach that isn’t nearly as accepting of financial risk or the possibility of failure.
 
@@ -54,13 +54,13 @@ Why does velocity matter?
 
 The faster the startup lifecycle moves, the faster ideas and business models are proven valid for the current market, or put on the shelf, possibly for another time. The benefits don’t just accrue to the companies and their investors, however. Founders and developers learn their lessons from each startup more quickly and take those lessons with them into the next cycle.
 
-It’s these rapid learning cycles that teach each generation of founders and developers their craft. The reason Silicon Valley is what it is today is because the people there have had more cycles to develop the craft than anywhere else.
+It’s these rapid learning cycles that teach each generation of founders and developers their craft. A big reason Silicon Valley is what it is today is because the people there have had more cycles to develop the craft than anywhere else. Yes, there are the universities and the area’s technology roots dating back to the 1950s. But the number of iterations is unmatched.
 
 How much do culture and regulation play a role? 
 
-I used to think that these were the most important parts of the equation. However, watching China’s startup scene evolve in a much different culture and regulatory environment indicates otherwise. The current activity around startups in China is off-the-charts regarding both the size of their funding rounds and how fast the entrepreneurs there are learning.
+I used to think that culture and regulation were the most important parts of the startup equation. However, watching China’s startup scene evolve in a much different culture and regulatory environment indicates otherwise. The current activity around startups in China is off-the-charts regarding both the size of their funding rounds and how fast the entrepreneurs there are learning.
 
-The event that finished breaking through my Western bias and mindset which discounted China’s software startup ecosystem as a land of copycats is the recent and almost complete transformation of their consumer payment system by cashless tools like Alipay and WeChat. Not only have these tools become the dominant payment system in cities like Shanghai, but they’ve even taken over in places like fruit stands by the side of the road in the middle of the countryside where you pay by scanning a QR code. With a phone.
+The event that finished breaking through my Western bias and mindset — one which discounted China’s software startup ecosystem as a land of copycats — is the recent and almost complete transformation of their consumer payment system by cashless tools like Alipay and WeChat. Not only have these tools become the dominant payment system in cities like Shanghai, but they’ve even taken over in places like fruit stands by the side of the road in the middle of the countryside where you pay by scanning a QR code. With a phone.
 
 You can even pay street musicians with these apps. Forget the guitar case with a sprinkling of change in it. Instead, friends of the musician hold up QR codes after every few songs. 
 
@@ -76,19 +76,19 @@ London has a vibrant startup ecosystem. It may still be the most exciting startu
 
 Our office in London continues to host its part of a thriving startup ecosystem. Our community meeting space is full every day of events that benefit that ecosystem. And, this seems to be true of the many other accelerators and corporate sponsored startup spaces there.
 
-So what’s happening? 
+So what’s happening?
 
-Fast moving ecosystems adapt to change better than slow moving ones. 
+**Fast moving ecosystems adapt to change better than slow moving ones.**
 
 It’s worth remembering that some of the best performing current Internet companies in the US were formed during the dot-com bubble and in the aftermath of its crash. Google started in 1998 and rose to prominence after the bubble popped. Facebook was founded in the aftermath of the pop 2004. Netflix was founded in 1997 and found its flat fee unlimited rental business model in 2000.
 
-Innovation and disruption go hand in hand.
+**Innovation and disruption go hand in hand.**
 
 Of course, Brexit is going to hurt. But the velocity of the startup ecosystem there means that it will still produce a lot of innovation even during that pain.
 
 One of the things my colleagues in London think has helped fuel the velocity and vibrancy of the startup scene there is what the United Kingdom has done with tax incentives. Their Enterprise Investment Scheme, the Seed Enterprise Investment Scheme, the Social Investment Scheme, and the Venture Capital Trust provide significant tools that encourage investment, not only by large investors but by small ones. 
 
-Furthermore, in crafting these incentives in a way that promotes smaller investors to participate, it spreads the benefit of success among a broader group of people. And the more people that benefit from the ecosystem, the more will be there to power future cycles.
+Furthermore, **in crafting these incentives in a way that promotes smaller investors to participate, they spread the benefit of success among a broader group of people.** And the more people that benefit from the ecosystem, the more will be there to power future cycles.
 
 Let’s look elsewhere in Europe.
 
@@ -96,7 +96,7 @@ The Paris startup scene is interesting. So is the one in the Netherlands. Howeve
 
 Yes, one of the PIGS.
 
-You all know the financial issues that Southern Europe has had, but despite those Portugal’s startup scene is growing like no other in the South. Portugal seems to understand that velocity is an important part of growing a startup ecosystem and it’s encouraging building velocity with both visa access and tax schemes that encourage investment. 
+You all know the financial issues that Southern Europe has had, but despite those **Portugal’s startup scene is growing like no other in the South.** Portugal seems to understand that velocity is an important part of growing a startup ecosystem and it’s encouraging building velocity with both visa access and tax schemes that encourage investment. 
 
 Furthermore, they’ve invested in making sure that they are a visible destination for startups, including ensuring that the WebSummit conference with its 70,000 attendees remains in Lisbon for the next ten years.
 
