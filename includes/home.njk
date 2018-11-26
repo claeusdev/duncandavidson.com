@@ -6,8 +6,8 @@ body: home
 <style type="text/css">{{ css | cssmin | safe }}</style>
 <header>
 <img src="/img/duncan.jpg" width="150" height="150">
-<h1>Duncan Davidson</h1>
-<p>Software developer, startup advocate, book author, and photographer.</p>
+<h1>{{ title }}</h1>
+<p>{{ lead }}</p>
 </header>
 <article>
 {{ content | safe }}

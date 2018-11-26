@@ -1,12 +1,10 @@
 ---
 layout: home
-title: James Duncan Davidson
-date: 2018-11-24
+title: Duncan Davidson
+lead: Software developer, startup advocate, book author, and photographer.
 ---
 
-I am a CTO in Residence at Microsoft for Startups in Berlin, Germany. I also provide team and technology advise for startups, helping founders and CTOs prioritize, focus, and think through what they are doing.
-
-I joined Microsoft through the acquisition of [Wunderlist](https://www.wunderlist.com/). I was as surprised as anyone since my entire professional career has been and remains centered around open source, UNIX, and MacOS. But with Satya Nadella at the helm, it’s a different time at Microsoft and so far, it’s been a crazy fascinating ride and I’ve learned a lot in the last few years.
+I am a CTO in Residence at Microsoft for Startups in Berlin, Germany. I joined Microsoft through the acquisition of [Wunderlist](https://www.wunderlist.com/). I also provide team and technology advise for startups, helping founders and CTOs prioritize, focus, and think through what they are doing.
 
 You can find me rambling on [Twitter](https://twitter.com/duncan), pushing code to [GitHub](https://github.com/duncan), writing on [Medium](https://medium.com/@duncan), and connecting to people on [LinkedIn](https://www.linkedin.com/in/duncandavidson/). You can also [email me](mailto:me@duncandavidson.com).
 
