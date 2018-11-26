@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/duncan/duncandavidson.com#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.5.4"
+    "@11ty/eleventy": "^0.6"
   },
   "dependencies": {
     "html-minifier": "^3.5.21"
