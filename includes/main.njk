@@ -7,14 +7,17 @@ body: default
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    {% set css %}{% include "style.css" %}{% endset %}
+    {% set css %}{% include "main.css" %}{% endset %}
     <style type="text/css">{{ css | cssmin | safe }}</style>
   </head>
   <body class="{{ body }}">
     <div id="nav">
       {% if layout != "home" %}
-      <a href="/"><i class="icon-home"></i></a>
+      <div style="float: left;"><a href="/"><strong>@duncan</strong></a></div>
       {% endif %}
+      <div style="float: right;">
+      <a href="/talks">Talks</a>
+      </div>
     </div>
 
     {{ content | safe }}

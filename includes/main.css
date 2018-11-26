@@ -140,12 +140,13 @@ div#nav {
     margin-top: 25px;
     margin-bottom: 50px;
     height: 25px;
-    font-size: 25px;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 div#nav a {
     border: 0;
-    color: #888;
+    color: #ddd;
 }
 
 div#nav a:hover {

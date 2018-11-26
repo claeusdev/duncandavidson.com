@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Wirtschaftstag der Innovationen",
+    "when": "12 November 2018",
+    "where": "Berlin, Germany",
+    "link": "https://wti2018.de/",
+    "talks": [
+      {
+        "title": "Keynote: Global perspective for an innovative startup ecosystem",
+        "link": "/talks/wirtschaftstag2018/"
+      }
+    ]
+  },
+  {
+    "name": "WebSummit",
+    "when": "6-8 November 2018",
+    "where": "Lisbon, Portugal",
+    "link": "https://websummit.com/",
+    "talks": [
+      {
+        "title": "Aquired: What it’s like at a startup bought by a huge company"
+      }
+    ]
+  },
+  {
+    "name": "0111 CTO Conference",
+    "when": "25-26 October 2018",
+    "where": "San Diego, California, USA",
+    "link": "https://www.0111conf.com/",
+    "talks": [
+      {
+        "title": "Keynote: From 60 to Microsoft"
+      }
+    ]
+  }
+]
