@@ -114,8 +114,8 @@ body {
     margin-left: auto;
     padding-left: 10px;
     margin-bottom: 75px;
-    background-color: rgb(55, 74, 94);
-    color: #ddd;
+    background-color:#ccc;
+    color: #333;
 }
 
 p {
@@ -123,9 +123,9 @@ p {
 }
 
 a {
-    color: #eee;
+    color: #444;
     text-decoration: none;
-    border-bottom: 1px #bbb solid;
+    border-bottom: 1px #666 solid;
 }
 
 li {
@@ -133,7 +133,7 @@ li {
 }
 
 a:hover {
-    color: #fff;
+    color: #000;
 }
 
 div#nav {
@@ -141,17 +141,17 @@ div#nav {
     margin-bottom: 50px;
     height: 25px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 div#nav a {
     border: 0;
-    color: #ddd;
+    color: #555;
 }
 
 div#nav a:hover {
     border: 0;
-    color: #fff;
+    color: #000;
 }
 
 body>footer {

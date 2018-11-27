@@ -8,18 +8,18 @@ body.page>header>img.hero {
 
 body.page>header>p.lead {
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1em;
 }
 
 body.page>header>p.note {
     font-size: 16px;
-    color: #aaa;
-    font-weight: 300;
+    color: #666;
+    font-weight: 400;
     margin-bottom: 50px;
 }
 
 body.page>article {
-    font-weight: 300;
+    font-weight: 400;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
