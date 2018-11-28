@@ -89,7 +89,12 @@ body>footer {
   border-radius: 100%;
 }
 
-.page .lede {
+body.home .lede {
+  font-size: var(--stepUp3);
+  line-height: 1.1em;
+}
+
+body.page .lede {
   font-size: var(--stepUp2);
   line-height: 1.1em;
 }
