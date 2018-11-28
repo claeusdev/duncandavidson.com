@@ -4,11 +4,13 @@ body: page
 ---
 <header>
 {% if hero %}
-<img class="hero" src="{{ hero }}">
+<div class="hero">
+<img src="{{ hero }}">
+</div>
 {% endif %}
 <h1>{{ title }}</h1>
-{% if lead %}
-<p class="lead">{{ lead }}</p>
+{% if lede %}
+<p class="lede">{{ lede }}</p>
 {% endif %}
 {% if note %}
 <p class="note">{{ note | safe }}</p>

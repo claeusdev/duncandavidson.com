@@ -4,9 +4,11 @@ body: home
 ---
 
 <header>
+<div class="headcircle">
 <img src="/img/duncan.jpg" width="150" height="150">
+</div>
 <h1>{{ title }}</h1>
-<p>{{ lead | safe }}</p>
+<p class="lede">{{ lede | safe }}</p>
 </header>
 <article>
 {{ content | safe }}
