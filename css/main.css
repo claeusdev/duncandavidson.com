@@ -89,9 +89,16 @@ body>footer {
   border-radius: 100%;
 }
 
-.lede {
-  font-size: var(--stepUp3);
+.page .lede {
+  font-size: var(--stepUp2);
   line-height: 1.1em;
+}
+
+.page .note {
+  /* font-size: var(--stepDown1); */
+  margin-bottom: 36px;
+  font-style: italic;
+  color: #777;
 }
 
 div.hero {
