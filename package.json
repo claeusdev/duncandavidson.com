@@ -4,6 +4,7 @@
   "description": "Duncan Davidson website",
   "license": "UNLICENSED",
   "scripts": {
+    "css": "postcss -o dist/style.css css/*.css",
     "build": "npx eleventy",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
@@ -20,6 +21,10 @@
   "homepage": "https://github.com/duncan/duncandavidson.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.6",
-    "html-minifier": "^3.5.21"
+    "autoprefixer": "^9.3.1",
+    "cssnano": "^4.1.7",
+    "html-minifier": "^3.5.21",
+    "postcss": "^7.0.6",
+    "postcss-cli": "^6.0.1"
   }
 }

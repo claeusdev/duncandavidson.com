@@ -165,3 +165,88 @@ body>footer a {
     color: #888;
     border: none;
 }
+
+
+body.page>header>h1 {
+    font-size: 42px;
+}
+
+body.page>header>img.hero {
+    width: 100%;
+}
+
+body.page>header>p.lead {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+body.page>header>p.note {
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+body.page>article {
+    font-weight: 400;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+ol {
+    margin-top: 48px;
+}
+
+ol,ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+li>.title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+li>.title>a {
+    border: 0;
+}
+
+li.event {
+    margin-bottom: 24px;
+}
+
+.event>.name {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.event>.name a {
+    border: 0;
+    font-weight: 600;
+}
+
+.event>.meta {
+    font-size: 12px;
+}
+
+
+body.home>header {
+    margin-bottom: 50px;
+}
+
+body.home>header>h1 {
+    font-size: 56px;
+}
+
+body.home>header>img {
+    text-align: center;
+    border-radius: 100%;
+    margin-bottom: 0px;
+}
+
+body.home>header>p {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1em;
+}

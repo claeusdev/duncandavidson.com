@@ -7,8 +7,7 @@ body: default
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    {% set css %}{% include "main.css" %}{% endset %}
-    <style type="text/css">{{ css | cssmin | safe }}</style>
+    <link rel="stylesheet" type="text/css" href="/style.css">
   </head>
   <body class="{{ body }}">
     <div id="nav">
