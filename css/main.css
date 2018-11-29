@@ -1,5 +1,7 @@
 @import '@csstools/normalize.css';
 @import 'fonts.css';
+@import 'plex-sans.css';
+@import 'plex-serif.css';
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
 
@@ -17,7 +19,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #f9f9f9;
   color: #333;
 }
@@ -97,25 +99,32 @@ body.home .lede {
 body.page .lede {
   font-size: var(--stepUp2);
   line-height: 1.1em;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-.page .note {
+body.page .note {
   /* font-size: var(--stepDown1); */
   margin-bottom: 36px;
   font-style: italic;
   color: #777;
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
 }
 
-div.hero {
+body.page div.hero {
   width: 100%;
   max-width: var(--heroImageWidth);
   margin-left: auto;
   margin-right: auto;
 }
 
-div.hero>img {
+body.page div.hero>img {
   width: 100%;
 }
+
+body.page p {
+  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+}
+
 
 ol.events {
   margin-top: 32px;
