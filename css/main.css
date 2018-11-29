@@ -82,7 +82,7 @@ hr {
   color: #777;
 }
 
-body>footer {
+#tools {
   max-width: var(--columnWidth);
   margin-top: 100px;
   margin-bottom: 24px;
@@ -91,14 +91,33 @@ body>footer {
   text-align: right;
 }
 
-.headcircle {
+.face {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
+  height: 150px;
 }
 
-.headcircle img {
+.face img {
   border-radius: 100%;
+  float: left;
+  margin-right: 24px;
+}
+
+.face .text {
+  width: 425px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.face .text p {
+
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+footer .face {
+  margin-top: 100px;
 }
 
 body.home .lede {
