@@ -146,8 +146,8 @@ ol.events, ul.talks {
   padding-left: 0px;
 }
 
-li.event, li.talk {
-  
+li.talk {
+  font-weight: bold;
 }
 
 li.event {
