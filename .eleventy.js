@@ -22,6 +22,11 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addFilter("displayDate", function(value) {
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    return value.toLocaleDateString("en-US", options);
+  });
+
   return {
     dir: {
       input: "src",

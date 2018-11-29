@@ -131,30 +131,35 @@ body.page div.hero>img {
   width: 100%;
 }
 
-body.page p {
+body.page p, body.page li {
   font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
 }
 
+body.page li {
+  line-height: 150%;
+}
 
 ol.events {
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-ol.events, ul.talks {
+ol.events, ul.talks, ol.essays {
   list-style-type: none;
   padding-left: 0px;
 }
 
-li.talk {
+li.talk, li.essay>.title {
+  font-size: var(--stepUp1);
   font-weight: bold;
+  margin-bottom: 3px;
 }
 
-li.event {
+li.event, li.essay {
   margin-bottom: 32px;
 }
 
-li.event .meta {
+li.event .meta, li.essay .meta {
   font-size: var(--stepDown1);
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }

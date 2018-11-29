@@ -1,9 +1,10 @@
 ---
 title: Lucky
+tags: essay
 date: 2017-12-02
 place: Frankfurt DE
 layout: page
-lede: A heart attack with blockage of a primary artery requires fast, decisive action or the consequences are devastating and deadly
+lede: A heart attack with blockage of a primary artery requires fast, decisive action or the consequences are devastating and deadly. I was lucky.
 note: I wrote this in December 2017 from a hospital bed as I worked to figure out exactly what had happened over the prior few days. Being able to type on a laptop and think through it all was an absolute blessing.
 ---
 

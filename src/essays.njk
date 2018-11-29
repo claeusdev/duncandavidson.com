@@ -1,0 +1,21 @@
+---
+layout: main
+---
+
+<h1>Essays</h1>
+
+
+<ol class="essays">
+  {% for essay in collections.essay | reverse %}
+    <li class="essay">
+        <div class="meta">
+        {{ essay.date | displayDate }}
+        {%if essay.data.place %} &bull; {{ essay.data.place }}{% endif %}
+        </div>
+        <div class="title"><a href="{{ essay.url }}">{{ essay.data.title }}</a></div>
+        {% if essay.data.lede %}
+        <div class="lede">{{ essay.data.lede }}</div>
+        {% endif %}
+    </li>
+  {% endfor %}
+</ol>
