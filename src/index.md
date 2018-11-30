@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Duncan Davidson
-lede: Software developer, startup advocate, <a href="/talks">speaker</a>, book author, and photographer.
+lede: Software developer, <a href="/startups/">startup advocate</a>, <a href="/talks">speaker</a>, book author, and photographer.
 ---
 
 I am a CTO in Residence at [Microsoft for Startups](https://startups.microsoft.com) in Berlin, Germany. I joined Microsoft through the acquisition of [Wunderlist](https://www.wunderlist.com/). I provide team and technology advise for startups; helping founders and CTOs prioritize, focus, and think through their work.

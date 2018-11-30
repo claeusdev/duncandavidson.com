@@ -5,8 +5,6 @@ layout: main
 
 # Colophon
 
-©2018 James Duncan Davidson
-
 ## Images
 
 The image of Duncan with camera which appears on the front page of this site in many of the footers is [©2013 David Hobby (aka Strobist)](http://strobist.blogspot.com/) and is used with permission. All other photographs are credited as properly as possible where they appear.
