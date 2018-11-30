@@ -54,7 +54,7 @@ p {
   line-height: 1.5em;
 }
 
-blockquote {
+blockquote p {
   font-style: italic;
 }
 
