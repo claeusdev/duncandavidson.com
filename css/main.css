@@ -59,7 +59,7 @@ li,ol {
 }
 
 a {
-  color: #555;
+  color: #333;
 }
 
 a:hover {
@@ -147,14 +147,14 @@ body.page .note {
   font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
 }
 
-body.page div.hero {
+div.hero {
   width: 100%;
   max-width: var(--heroImageWidth);
   margin-left: auto;
   margin-right: auto;
 }
 
-body.page div.hero>img {
+div.hero>img {
   width: 100%;
 }
 
