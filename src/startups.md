@@ -1,6 +1,6 @@
 ---
 title: Startup Advocacy
-layout: Page
+layout: page
 lede: It takes a particular person to thrive in the startup world. One who is highly adaptable, driven to try something new, willing to fail, and then pick themselves up again and give it another go.
 ---
 
