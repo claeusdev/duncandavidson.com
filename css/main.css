@@ -16,7 +16,10 @@
   --stepUp2: calc(var(--stepUp1) * var(--ratio));
   --stepUp3: calc(var(--stepUp2) * var(--ratio));
   --stepUp4: calc(var(--stepUp3) * var(--ratio));
+  --sidePagePadding: 16px;
 }
+
+@custom-media --narrow-window (max-width: 632px);
 
 body {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -26,12 +29,12 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p, ol, li {
+h1, h2, h3, p, li {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: var(--sidePagePadding);
+  padding-right: var(--sidePagePadding);
 }
 
 h1 {
@@ -76,6 +79,8 @@ hr {
   margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
+  padding-right: var(--sidePagePadding);
+  padding-left: var(--sidePagePadding);
   height: 50px;
 }
 
@@ -88,6 +93,8 @@ hr {
   max-width: var(--columnWidth);
   margin-top: 100px;
   margin-bottom: 24px;
+  padding-right: var(--sidePagePadding);
+  padding-left: var(--sidePagePadding);
   margin-left: auto;
   margin-right: auto;
   text-align: right;
@@ -97,7 +104,7 @@ hr {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
+  min-height: 150px;
 }
 
 .face img {
@@ -114,7 +121,6 @@ hr {
 }
 
 .face .text p {
-
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -170,10 +176,19 @@ ol.events, ul.talks, ol.essays {
   padding-left: 0px;
 }
 
-li.talk, li.essay>.title {
+li.essay>.title {
   font-size: var(--stepUp1);
   font-weight: bold;
   margin-bottom: 3px;
+}
+
+.talk {
+  font-size: var(--stepUp1);
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  font-weight: bold;
 }
 
 li.event, li.essay {
@@ -183,4 +198,22 @@ li.event, li.essay {
 li.event .meta, li.essay .meta {
   font-size: var(--stepDown1);
   margin-bottom: 3px;
+}
+
+@media (--narrow-window) {
+  .home h1, .home .lede {
+    text-align: center;
+  }
+  .face {
+    text-align: center;
+  }
+  .face img {
+    float: none;
+  }
+  .face .text {
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
