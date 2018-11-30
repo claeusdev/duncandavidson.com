@@ -1,6 +1,7 @@
 ---
 title: Wirtschaftstag 2018
 hero: /img/wirtschaftstag.jpg
+herocredit: Wirtschaftstag 2018
 date: 2018-11-12
 lede: I share my employer’s perspective from a global point of view for an innovative startup ecosystem in Germany.
 note: The <a href="https://wti2018.de">Wirtschaftstag der Innovationen 2018</a> (literally “Business day for innovation”) was a one day conference organized by the Wirtschaftsrat der CDU on November 12th, 2018. My role at the conference was to provide a viewpoint on startups from a global perspective based on both personal experience and my experience working at Microsoft.

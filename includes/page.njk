@@ -3,11 +3,7 @@ layout: main
 body: page
 ---
 <header>
-{% if hero %}
-<div class="hero">
-<img src="{{ hero }}">
-</div>
-{% endif %}
+{% include "hero.njk" %}
 <h1>{{ title }}</h1>
 {% if lede %}
 <p class="lede">{{ lede }}</p>

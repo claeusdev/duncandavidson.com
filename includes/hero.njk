@@ -1,0 +1,8 @@
+{% if hero %}
+<div class="hero">
+<img src="{{ hero }}">
+{% if herocredit %}
+<div class="credit"><i class="icon-camera"></i> {{ herocredit | safe }}</div>
+{% endif %}
+</div>
+{% endif %}
