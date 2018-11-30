@@ -4,7 +4,10 @@ body: page
 ---
 <header>
 {% include "hero.njk" %}
+<div class="date">{{ date | displayDate }}</div>
 <h1>{{ title }}</h1>
+{% if date %}
+{% endif %}
 {% if lede %}
 <p class="lede">{{ lede }}</p>
 {% endif %}

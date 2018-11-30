@@ -29,7 +29,7 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p, li, .hero>.credit {
+h1, h2, h3, p, li, .hero>.credit, .page header .date {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
@@ -132,6 +132,15 @@ footer .face {
   margin-top: 100px;
 }
 
+.page header .date {
+  font-size: var(--stepDown1);
+  margin-top: 18px;
+}
+
+.page header .date + h1 {
+  margin-top: 0;
+}
+
 body.home .lede {
   font-size: var(--stepUp3);
   line-height: 1.1em;
@@ -156,6 +165,7 @@ div.hero {
   max-width: var(--heroImageWidth);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 42px;
 }
 
 div.hero>img {
