@@ -54,9 +54,13 @@ p {
   line-height: 1.5em;
 }
 
-blockquote p {
+blockquote {
   margin: 0;
   padding: 0;
+}
+
+blockquote>p {
+  font-style: italic;
 }
 
 li,ol {

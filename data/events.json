@@ -18,7 +18,8 @@
     "link": "https://websummit.com/",
     "talks": [
       {
-        "title": "Aquired: What it’s like at a startup bought by a huge company"
+        "title": "What it’s like at a startup bought by a huge company",
+        "link": "/talks/empathy-wobble/"
       }
     ]
   },
@@ -29,7 +30,8 @@
     "link": "https://www.0111conf.com/",
     "talks": [
       {
-        "title": "Keynote: From 60 to Microsoft"
+        "title": "Keynote: From 60 to Microsoft",
+        "link": "/talks/empathy-wobble/"
       }
     ]
   }
