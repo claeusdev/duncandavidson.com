@@ -206,6 +206,10 @@ li.essay>.title {
   margin-bottom: 3px;
 }
 
+li.essay>.lede {
+  margin-top: 6px;
+}
+
 .talk {
   font-size: var(--stepUp1);
   margin-left: 0;
