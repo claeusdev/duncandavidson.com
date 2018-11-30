@@ -20,18 +20,18 @@ layout: main
       {{ event.when }} 
       &bull; 
       {{ event.where }}</div>
-      <div>
-        <ul class="talks">
+      <div class="talks">
+  
           {% for talk in event.talks %}
-             <li class="talk">
+             <div class="talk">
                 {% if talk.link %}
                   <a href="{{talk.link}}">{{ talk.title }}</a>
                 {% else %}
                   {{ talk.title }}
                 {% endif %}
-             </li>
+             </div>
           {% endfor %}
-        </ul>
+  
       </div>
     </li>
   {% endfor %}
