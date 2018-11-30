@@ -97,7 +97,11 @@ hr {
   padding-left: var(--sidePagePadding);
   margin-left: auto;
   margin-right: auto;
-  text-align: right;
+  text-align: left;
+}
+
+#tools a {
+  color: #777;
 }
 
 .face {
