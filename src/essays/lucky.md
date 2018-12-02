@@ -5,7 +5,6 @@ date: 2017-12-02
 place: Frankfurt DE
 layout: page
 lede: A heart attack with blockage of a primary artery requires fast, decisive action by highly trained physicians or the consequences are devastating and deadly. I was lucky.
-note: I wrote this in December 2017 from a hospital bed as I worked to figure out exactly what had happened over the prior few days. Being able to type on a laptop and think through it all was an absolute blessing.
 ---
 
 “You are one, very, lucky, son of a…” the doctor said as he sat down, slowly emphasizing each word as he said it. He was right, of course, but I was only beginning to understand just how right he was.
@@ -58,4 +57,6 @@ A more productive question is: What comes next? A very real possibility is that 
 
 Even if that’s the case, however, I’ll have to do my part to approaching the factors I can control. Those last few kilos have to come off. I’ll have to monitor the best practices in the treatment regimes for people like me. And, I’ll have to modify my work stress levels. The last few years haven’t been kind on that front and I’ve already been taking steps to adjust my life there. I have an additional sense of urgency to make those steps happen now.
 
-As I write this from my hospital bed trying to put everything that happened together, I plan on living life, enjoying my family, trying to do work that matters, and making sure that every moment of what now feels like bonus time on the clock is well used.
+As I write this from my hospital bed a few hours after the surgery trying to put everything that happened together, I plan on living life, enjoying my family, trying to do work that matters, and making sure that every moment of what now feels like bonus time on the clock is well used.
+
+_One year later, again on Dec 2nd, I transited the Frankfurt airport on my way to Helsinki for work. My health is good shape. My doctors are happy with my progress. I’m 48 now and I’ve still got a few kilos to lose, but I’m working on it. Most of all, I remain grateful. Grateful for the staff at the airport. Grateful to the physicians who treated me at the hospital. Grateful to be alive and experiencing the very unique feeling of life._
