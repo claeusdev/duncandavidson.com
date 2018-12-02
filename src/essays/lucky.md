@@ -5,6 +5,7 @@ date: 2017-12-02
 place: Frankfurt DE
 layout: page
 lede: A heart attack with blockage of a primary artery requires fast, decisive action by highly trained physicians or the consequences are devastating and deadly. I was lucky.
+note: Originally published on <a href="https://medium.com/@duncan/lucky-b67cdb619965">Medium</a>. It appears updated and edited here.
 ---
 
 “You are one, very, lucky, son of a…” the doctor said as he sat down, slowly emphasizing each word as he said it. He was right, of course, but I was only beginning to understand just how right he was.
