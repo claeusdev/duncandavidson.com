@@ -23,6 +23,7 @@
 
 body {
   font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
   margin: 0;
