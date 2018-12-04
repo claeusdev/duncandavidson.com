@@ -41,12 +41,24 @@ h1 {
   font-size: var(--stepUp3);
 }
 
+article h1 {
+  font-size: var(--stepUp2);
+}
+
 h2 {
   font-size: var(--stepUp2);
 }
 
+article h2 {
+  font-size: var(--stepUp1);
+}
+
 h3 {
   font-size: var(--stepUp1);
+}
+
+article h3 {
+  font-size: var(--baseFontSize);
 }
 
 p {
@@ -238,6 +250,15 @@ li.event .meta, li.essay .meta {
 }
 
 @media (--narrow-window) {
+  :root {
+    --baseFontSize: 15px;
+    --ratio: 1.2;
+    --stepDown1: calc(1em / var(--ratio));
+    --stepUp1: calc(1em * var(--ratio));
+    --stepUp2: calc(var(--stepUp1) * var(--ratio));
+    --stepUp3: calc(var(--stepUp2) * var(--ratio));
+    --stepUp4: calc(var(--stepUp3) * var(--ratio));
+  }
   .home h1, .home .lede {
     text-align: center;
   }
