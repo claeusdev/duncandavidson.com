@@ -10,6 +10,7 @@
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
   --lineHeight: 1.5;
   --baseFontSize: 18px;
+  --monoFontSize: 14px;
   --ratio: 1.414;
   --stepDown1: calc(1em / var(--ratio));
   --stepUp1: calc(1em * var(--ratio));
@@ -94,6 +95,22 @@ hr {
   margin-right: auto;
   margin-bottom: 32px;
   margin-top: 32px;
+}
+
+pre code {
+  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-size: var(--monoFontSize);
+  display: block;
+  max-width: var(--columnWidth);
+  padding-right: var(--sidePagePadding);
+  padding-left: var(--sidePagePadding);
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  white-space: pre-wrap;
+  line-height: 1.3em;
 }
 
 #nav {
