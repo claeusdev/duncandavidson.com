@@ -19,11 +19,11 @@ The content for this site is built and hosted by [Netlify](https://www.netlify.c
 
 ## Analytics
 
-[Segment](https://segment.com/) is used to collect the data from the page using anonymous IDs. Furthermore, collection of your IP address is suppressed when executing analytics script. No personally identifiable information (PII) is collected by this process.
+[Segment](https://segment.com/) is used to collect the data from viewing pages on this site using anonymous IDs. Furthermore, collection of your IP address is suppressed when executing analytics script. No personally identifiable information (PII) is collected by this process.
 
-Here’s an example analytics packet for a view of this page that shows all of the data collected, including the forced suppression of the IP address:
+Here’s an example analytics message for a view of this page that shows all of the data collected, including the forced suppression of the IP address:
 
-```
+``` json
 {
   "anonymousId": "e8dd4eba-e147-493b-9220-0dc1119465fa",
   "context": {
