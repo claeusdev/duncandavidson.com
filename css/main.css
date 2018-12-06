@@ -2,6 +2,7 @@
 @import 'fonts.css';
 @import 'plex-sans.css';
 @import 'plex-serif.css';
+@import 'code.css';
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
 
@@ -10,7 +11,7 @@
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
   --lineHeight: 1.5;
   --baseFontSize: 18px;
-  --monoFontSize: 14px;
+  --monoFontSize: 13px;
   --ratio: 1.414;
   --stepDown1: calc(1em / var(--ratio));
   --stepUp1: calc(1em * var(--ratio));
