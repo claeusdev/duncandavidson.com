@@ -11,7 +11,7 @@ The image of Duncan with camera which appears on the front page of this site in 
 
 ## Fonts
 
-The open source [IBM Plex Sans and IBM Plex Serif](https://www.ibm.com/plex) are used as body and headline fonts throughout. [Font Awesome](https://fontawesome.com) is the icon font. Both are used under the terms of the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1).
+The open source [IBM Plex fonts](https://www.ibm.com/plex) are used throughout under the terms of the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1).
 
 ## Infrastructure
 
