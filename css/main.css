@@ -124,12 +124,12 @@ pre code {
   height: 50px;
 }
 
-#nav a {
+#nav a, #footer a {
   text-decoration: none;
   color: #777;
 }
 
-#tools {
+#footer {
   max-width: var(--columnWidth);
   margin-top: 100px;
   margin-bottom: 24px;
