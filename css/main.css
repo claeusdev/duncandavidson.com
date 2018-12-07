@@ -23,7 +23,7 @@
 @custom-media --narrow-window (max-width: 632px);
 
 body {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'IBM Plex Sans';
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -31,12 +31,16 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p, li, .hero>.credit, .page header .date {
+h1, h2, h3, p, li, .hero>.credit, .page header .date, .social {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--sidePagePadding);
   padding-right: var(--sidePagePadding);
+}
+
+.social {
+  margin-top: 48px;
 }
 
 h1 {
@@ -267,6 +271,19 @@ li.event .meta, li.essay .meta {
   margin-bottom: 3px;
 }
 
+.icon-github, .icon-twitter {
+  width: 36px;
+  height: 36px;
+  margin-right: 24px;
+}
+
+.icon-facebook {
+  width: 34px;
+  height: 34px;
+  margin-right: 24px;
+  margin-bottom: 1px;
+}
+
 @media (--narrow-window) {
   :root {
     --baseFontSize: 15px;
@@ -277,7 +294,7 @@ li.event .meta, li.essay .meta {
     --stepUp3: calc(var(--stepUp2) * var(--ratio));
     --stepUp4: calc(var(--stepUp3) * var(--ratio));
   }
-  .home h1, .home .lede {
+  .home h1, .home .lede, .social {
     text-align: center;
   }
   .face {

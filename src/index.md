@@ -6,7 +6,7 @@ lede: Software developer, <a href="/startups/">startup advocate</a>, <a href="/t
 
 I am a CTO in Residence at [Microsoft for Startups](https://startups.microsoft.com) in Berlin, Germany. I joined Microsoft through the acquisition of [Wunderlist](https://www.wunderlist.com/). I provide team and technology advise for startups; helping founders and CTOs prioritize, focus, and think through their work.
 
-You can find me rambling on [Twitter](https://twitter.com/duncan), pushing code to [GitHub](https://github.com/duncan), writing on [Medium](https://medium.com/@duncan), and connecting to people on [LinkedIn](https://www.linkedin.com/in/duncandavidson/). You can also [email me](mailto:me@duncandavidson.com).
+<!-- You can find me rambling on [Twitter](https://twitter.com/duncan), pushing code to [GitHub](https://github.com/duncan), writing on [Medium](https://medium.com/@duncan), and connecting to people on [LinkedIn](https://www.linkedin.com/in/duncandavidson/). You can also [email me](mailto:me@duncandavidson.com). -->
 
 <!-- 
 # Photographer
