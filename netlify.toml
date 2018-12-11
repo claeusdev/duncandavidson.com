@@ -1,3 +1,9 @@
 [build]
   publish = "dist"
   command = "npx npm-run-all build:css build:html"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://duncandavidson-api.azurewebsites.net/api/:splat"
+  status = 200
+  force = true
