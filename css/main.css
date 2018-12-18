@@ -233,6 +233,10 @@ body.page li {
   line-height: 150%;
 }
 
+body.page p img {
+  max-width: 100%;
+}
+
 ol.events {
   margin-top: 32px;
   margin-bottom: 32px;
