@@ -3,7 +3,7 @@ title: Coping with jet lag
 tags: essay
 date: 2015-02-20
 layout: page
-lede: Desynchronosis is the price we pay for the miracle of rapid global travel. The best we can really do is treat the symptoms until it lets go.
+lede: Desynchronosis is the price we pay for the miracle of rapid global travel. There’s no magic cure. The best we can really do is treat the symptoms until it lets go.
 ---
 
 There are times I find myself enjoying the existentially altered feeling that comes with jet lag—more formally called _desynchronosis_. Everything is slightly different. You look at the world without your usual filters and expectations, right up to the moment where you find yourself spaced out looking blankly out the window for an hour. And then, the next moment when you wake up hours later not remembering how you made it to the bed you’re laying on.
