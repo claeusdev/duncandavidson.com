@@ -1,5 +1,5 @@
 ---
-title: Coping with Jet Lag
+title: Coping with jet lag
 tags: essay
 date: 2015-02-20
 layout: page
