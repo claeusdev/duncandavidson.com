@@ -87,6 +87,7 @@ li,ol {
 
 a {
   color: #333;
+  text-decoration-color: #aaa;
 }
 
 a:hover {
