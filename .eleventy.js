@@ -6,7 +6,6 @@ module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("logos");
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addFilter("cssmin", function(code) {
