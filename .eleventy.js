@@ -3,7 +3,6 @@ const htmlmin = require("html-minifier");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
-  
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPlugin(syntaxHighlight);
@@ -13,7 +12,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
-    if( outputPath.endsWith(".html") ) {
+    if (outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
@@ -25,13 +24,17 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter("displayDate", function(value) {
-    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var options = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    };
     if (value) {
       return value.toLocaleDateString("en-US", options);
     } else {
       return "";
     }
-    
   });
 
   return {
@@ -40,11 +43,8 @@ module.exports = function(eleventyConfig) {
       includes: "../includes",
       data: "../data",
       output: "dist",
-      templateFormats: [
-        "md",
-        "jpg" 
-      ],
-      passthroughFileCopy: true,
+      templateFormats: ["md", "jpg"],
+      passthroughFileCopy: true
     }
-  }
-}
+  };
+};

@@ -1,12 +1,12 @@
 module.exports = {
   plugins: [
-    require('postcss-import')({}),
-    require('postcss-preset-env')({
+    require("postcss-import")({}),
+    require("postcss-preset-env")({
       stage: 0,
-      browsers: 'last 2 versions'
+      browsers: "last 2 versions"
     }),
-    require('cssnano')({
-      preset: 'default',
-    }),
-  ],
-};  
+    require("cssnano")({
+      preset: "default"
+    })
+  ]
+};
