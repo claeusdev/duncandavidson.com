@@ -1,7 +1,7 @@
-@import '@csstools/normalize.css';
-@import 'plex-sans.css';
-@import 'plex-serif.css';
-@import 'code.css';
+@import "@csstools/normalize.css";
+@import "plex-sans.css";
+@import "plex-serif.css";
+@import "code.css";
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
 
@@ -23,7 +23,7 @@
 @custom-media --narrow-window (max-width: 632px);
 
 body {
-  font-family: 'IBM Plex Sans';
+  font-family: "IBM Plex Sans";
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -31,7 +31,14 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, p, li, .hero>.credit, .page header .date, .social {
+h1,
+h2,
+h3,
+p,
+li,
+.hero > .credit,
+.page header .date,
+.social {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
@@ -77,11 +84,12 @@ blockquote {
   padding: 0;
 }
 
-blockquote>p {
+blockquote > p {
   font-style: italic;
 }
 
-li,ol {
+li,
+ol {
   font-size: var(--baseFontSize);
 }
 
@@ -103,7 +111,8 @@ hr {
 }
 
 pre code {
-  font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-family: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", Courier, monospace;
   font-size: var(--monoFontSize);
   display: block;
   max-width: var(--columnWidth);
@@ -128,7 +137,8 @@ pre code {
   height: 50px;
 }
 
-#nav a, #footer a {
+#nav a,
+#footer a {
   text-decoration: none;
   color: #777;
 }
@@ -169,7 +179,7 @@ pre code {
 }
 
 .face .text p {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 footer .face {
@@ -193,7 +203,7 @@ body.home .lede {
 body.page .lede {
   font-size: var(--stepUp2);
   line-height: 1.1em;
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.page .note {
@@ -201,7 +211,7 @@ body.page .note {
   margin-bottom: 36px;
   font-style: italic;
   color: #777;
-  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+  font-family: "IBM Plex Serif", "Georgia", Times, serif;
 }
 
 div.hero {
@@ -212,22 +222,23 @@ div.hero {
   margin-bottom: 42px;
 }
 
-div.hero>img {
+div.hero > img {
   width: 100%;
 }
 
-div.hero>.credit {
+div.hero > .credit {
   font-size: var(--stepDown1);
   text-align: left;
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
   color: #777;
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
-body.page p, body.page li {
-  font-family: 'IBM Plex Serif', 'Georgia', Times, serif;
+body.page p,
+body.page li {
+  font-family: "IBM Plex Serif", "Georgia", Times, serif;
 }
 
 body.page li {
@@ -243,18 +254,20 @@ ol.events {
   margin-bottom: 32px;
 }
 
-ol.events, ul.talks, ol.essays {
+ol.events,
+ul.talks,
+ol.essays {
   list-style-type: none;
   padding-left: 0px;
 }
 
-li.essay>.title {
+li.essay > .title {
   font-size: var(--stepUp1);
   font-weight: bold;
   margin-bottom: 3px;
 }
 
-li.essay>.lede {
+li.essay > .lede {
   margin-top: 6px;
 }
 
@@ -267,16 +280,19 @@ li.essay>.lede {
   font-weight: bold;
 }
 
-li.event, li.essay {
+li.event,
+li.essay {
   margin-bottom: 32px;
 }
 
-li.event .meta, li.essay .meta {
+li.event .meta,
+li.essay .meta {
   font-size: var(--stepDown1);
   margin-bottom: 3px;
 }
 
-.icon-github, .icon-twitter {
+.icon-github,
+.icon-twitter {
   width: 36px;
   height: 36px;
   margin-right: 24px;
@@ -299,7 +315,9 @@ li.event .meta, li.essay .meta {
     --stepUp3: calc(var(--stepUp2) * var(--ratio));
     --stepUp4: calc(var(--stepUp3) * var(--ratio));
   }
-  .home h1, .home .lede, .social {
+  .home h1,
+  .home .lede,
+  .social {
     text-align: center;
   }
   .face {

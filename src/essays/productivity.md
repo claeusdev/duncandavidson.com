@@ -1,5 +1,5 @@
 ---
-title: The productivity hack    
+title: The productivity hack
 tags: essay
 date: 2018-12-06
 place: Berlin DE
@@ -19,7 +19,7 @@ Inevitably, at some point, I’d fall out of the rhythm. Maybe my routine would 
 
 I did this off and on for years before I finally got it through my head that the benefit I saw didn’t come from the new app. It came from _thinking_ about what I was going to do, what I needed to do, and what I could postpone for later or even not do at all.
 
-Of course, [David Allen](https://gettingthingsdone.com/meet-david/) writes about this in [Getting Things Done](https://gettingthingsdone.com/). If only I’d fully internalized what he meant fifteen years ago when I read his book. 
+Of course, [David Allen](https://gettingthingsdone.com/meet-david/) writes about this in [Getting Things Done](https://gettingthingsdone.com/). If only I’d fully internalized what he meant fifteen years ago when I read his book.
 
 Pick a tool. Any tool. And use it every day.
 
@@ -31,9 +31,9 @@ So it’s easy, right? Just spend some time every day, right? Right. That’s mu
 
 I have two repeating appointments that I block out:
 
-* 15 minutes every weekday, to plan for the day.
-* 30 additional minutes every week on Monday, to prepare for the week
+- 15 minutes every weekday, to plan for the day.
+- 30 additional minutes every week on Monday, to prepare for the week
 
 If I turn up to these appointments with myself almost every day, my productivity benefits. If something comes up at the time I’ve booked, that’s OK. I’ll either reschedule or skip as appropriate. But I do that as a conscious decision so that I make sure only to cancel when it’s essential to do so. And if I do it too many times, it doesn’t take long before I see how things slow down.
 
-That’s it. That’s the hack that works for me. 
+That’s it. That’s the hack that works for me.

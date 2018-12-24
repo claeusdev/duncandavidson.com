@@ -8,11 +8,11 @@ I am a Startup Advocate and CTO in Residence at [Microsoft for Startups](https:/
 
 <!-- You can find me rambling on [Twitter](https://twitter.com/duncan), pushing code to [GitHub](https://github.com/duncan), writing on [Medium](https://medium.com/@duncan), and connecting to people on [LinkedIn](https://www.linkedin.com/in/duncandavidson/). You can also [email me](mailto:me@duncandavidson.com). -->
 
-<!-- 
+<!--
 # Photographer
 
 TED and O’Reilly Media. -->
-<!-- 
+<!--
 # Creator of Apache Tomcat and Apache Ant
 
 [Tomcat](https://tomcat.apache.org) started out as a reference implementation of the [Java Servlet API](https://en.wikipedia.org/wiki/Java_servlet) that I first wrote while working on the specification at Sun Microsystems. To aid the adoption of the Servlet API, I lead an effort in Sun to open source Tomcat and donate it to the Apache Software Foundation. Almost twenty years later, Tomcat is on version 9 and is powering countless websites around the world.
