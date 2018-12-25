@@ -202,7 +202,7 @@ body.home .lede {
 
 body.page .lede {
   font-size: var(--stepUp2);
-  line-height: 1.1em;
+  line-height: 38px;
   font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
