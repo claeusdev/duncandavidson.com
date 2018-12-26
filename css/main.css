@@ -1,6 +1,4 @@
 @import "@csstools/normalize.css";
-@import "plex-sans.css";
-@import "plex-serif.css";
 @import "code.css";
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
@@ -9,11 +7,11 @@
   --columnWidth: 600px;
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
   --lineHeight: 1.5;
-  --baseFontSize: 18px;
+  --baseFontSize: 1rem;
   --monoFontSize: 13px;
   --ratio: 1.414;
-  --stepDown1: calc(1em / var(--ratio));
-  --stepUp1: calc(1em * var(--ratio));
+  --stepDown1: calc(1rem / var(--ratio));
+  --stepUp1: calc(1rem * var(--ratio));
   --stepUp2: calc(var(--stepUp1) * var(--ratio));
   --stepUp3: calc(var(--stepUp2) * var(--ratio));
   --stepUp4: calc(var(--stepUp3) * var(--ratio));
@@ -23,7 +21,10 @@
 @custom-media --narrow-window (max-width: 632px);
 
 body {
-  font-family: "IBM Plex Sans";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -111,8 +112,8 @@ hr {
 }
 
 pre code {
-  font-family: "IBM Plex Mono", "Menlo", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", Courier, monospace;
+  font-family: "Menlo", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", Courier,
+    monospace;
   font-size: var(--monoFontSize);
   display: block;
   max-width: var(--columnWidth);
@@ -178,10 +179,6 @@ pre code {
   align-items: center;
 }
 
-.face .text p {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-}
-
 footer .face {
   margin-top: 100px;
 }
@@ -203,7 +200,6 @@ body.home .lede {
 body.page .lede {
   font-size: var(--stepUp2);
   line-height: 38px;
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.page .note {
@@ -211,7 +207,6 @@ body.page .note {
   margin-bottom: 36px;
   font-style: italic;
   color: #777;
-  font-family: "IBM Plex Serif", "Georgia", Times, serif;
 }
 
 div.hero {
@@ -234,11 +229,6 @@ div.hero > .credit {
   margin-right: auto;
   color: #777;
   padding-top: 0.5em;
-}
-
-body.page p,
-body.page li {
-  font-family: "IBM Plex Serif", "Georgia", Times, serif;
 }
 
 body.page li {
