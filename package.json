@@ -1,7 +1,7 @@
 {
   "name": "duncandavidson.com",
   "version": "1.0.0",
-  "description": "Duncan Davidson website",
+  "description": "Duncan Davidson's website",
   "license": "UNLICENSED",
   "scripts": {
     "build:css": "postcss -o dist/style.css css/main.css",
