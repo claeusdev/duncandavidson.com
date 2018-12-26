@@ -6,10 +6,10 @@
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
 
 :root {
-  --columnWidth: 600px;
+  --columnWidth: 550px;
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
   --lineHeight: 1.5;
-  --baseFontSize: 18px;
+  --baseFontSize: 1rem;
   --monoFontSize: 13px;
   --ratio: 1.414;
   --stepDown1: calc(1em / var(--ratio));
@@ -21,6 +21,11 @@
 }
 
 @custom-media --narrow-window (max-width: 632px);
+
+html {
+  font-size: 16px;
+  font-weight: 400;
+}
 
 body {
   font-family: "IBM Plex Sans";
@@ -96,6 +101,7 @@ ol {
 a {
   color: #333;
   text-decoration-color: #aaa;
+  text-decoration-line: underline;
 }
 
 a:hover {
@@ -108,6 +114,11 @@ hr {
   margin-right: auto;
   margin-bottom: 32px;
   margin-top: 32px;
+}
+
+b,
+strong {
+  font-weight: 600;
 }
 
 pre code {
@@ -162,7 +173,7 @@ pre code {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
-  min-height: 150px;
+  min-height: 100px;
 }
 
 .face img {
@@ -173,13 +184,9 @@ pre code {
 
 .face .text {
   width: 425px;
-  height: 150px;
+  height: 100px;
   display: flex;
   align-items: center;
-}
-
-.face .text p {
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 footer .face {
@@ -203,7 +210,6 @@ body.home .lede {
 body.page .lede {
   font-size: var(--stepUp2);
   line-height: 38px;
-  font-family: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 body.page .note {
@@ -211,7 +217,7 @@ body.page .note {
   margin-bottom: 36px;
   font-style: italic;
   color: #777;
-  font-family: "IBM Plex Serif", "Georgia", Times, serif;
+  /* font-family: "IBM Plex Serif", "Georgia", Times, serif; */
 }
 
 div.hero {
@@ -234,11 +240,6 @@ div.hero > .credit {
   margin-right: auto;
   color: #777;
   padding-top: 0.5em;
-}
-
-body.page p,
-body.page li {
-  font-family: "IBM Plex Serif", "Georgia", Times, serif;
 }
 
 body.page li {
