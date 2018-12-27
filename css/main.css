@@ -203,6 +203,7 @@ footer .face {
 
 body.home .lede {
   font-size: var(--stepUp2);
+  line-height: 36px;
 }
 
 body.page .lede {
