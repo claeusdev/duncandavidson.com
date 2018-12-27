@@ -11,7 +11,7 @@ The image of Duncan with camera which appears on the front page of this site in 
 
 ## Fonts
 
-The open source [IBM Plex fonts](https://www.ibm.com/plex) are used throughout under the terms of the [SIL Open Font License](https://opensource.org/licenses/OFL-1.1).
+[Open Sans](https://fonts.google.com/specimen/Open+Sans) by Steve Matteson is used as the font family throughout this site and is used under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). The fonts are self-hosted with the help of the [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/noto-sans?subsets=latin).
 
 ## Infrastructure
 

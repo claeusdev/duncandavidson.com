@@ -1,4 +1,5 @@
 @import "@csstools/normalize.css";
+@import "open-sans.css";
 @import "plex-sans.css";
 @import "plex-serif.css";
 @import "code.css";
@@ -25,10 +26,11 @@
 html {
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 body {
-  font-family: "IBM Plex Sans";
+  font-family: "Open Sans";
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -118,7 +120,7 @@ hr {
 
 b,
 strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 pre code {
@@ -203,13 +205,11 @@ footer .face {
 }
 
 body.home .lede {
-  font-size: var(--stepUp3);
-  line-height: 42px;
+  font-size: var(--stepUp2);
 }
 
 body.page .lede {
   font-size: var(--stepUp2);
-  line-height: 38px;
 }
 
 body.page .note {
