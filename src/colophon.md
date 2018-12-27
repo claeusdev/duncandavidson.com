@@ -7,11 +7,11 @@ layout: main
 
 ## Images
 
-The image of Duncan with camera which appears on the front page of this site in many of the footers is [©2013 David Hobby (aka Strobist)](http://strobist.blogspot.com/) and is used with permission. All other photographs are credited as properly as possible where they appear.
+The image of Duncan with camera which appears on the front page of this site and in many of the footers is [©2013 David Hobby (aka Strobist)](http://strobist.blogspot.com/) and is used with permission. All other photographs are credited where they appear.
 
 ## Fonts
 
-[Open Sans](https://fonts.google.com/specimen/Open+Sans) by Steve Matteson is used as the font family throughout this site and is used under the terms of the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html). The fonts are self-hosted with the help of the [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/fonts/noto-sans?subsets=latin).
+[Source Sans Pro](https://adobe-fonts.github.io/source-sans-pro/) by Paul D. Hunt is used as the font family throughout this site. The font is copyright Adobe and is used under the terms of the [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-sans-pro/blob/release/LICENSE.txt). The fonts are self-hosted with the help of the [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/).
 
 ## Infrastructure
 

@@ -1,7 +1,5 @@
 @import "@csstools/normalize.css";
-@import "open-sans.css";
-@import "plex-sans.css";
-@import "plex-serif.css";
+@import "source-sans.css";
 @import "code.css";
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
@@ -9,7 +7,6 @@
 :root {
   --columnWidth: 550px;
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
-  --lineHeight: 1.5;
   --baseFontSize: 1rem;
   --monoFontSize: 13px;
   --ratio: 1.414;
@@ -24,13 +21,12 @@
 @custom-media --narrow-window (max-width: 632px);
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  letter-spacing: -0.01em;
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: "Source Sans Pro", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -83,7 +79,7 @@ article h3 {
 
 p {
   font-size: var(--baseFontSize);
-  line-height: 1.5em;
+  line-height: 150%;
 }
 
 blockquote {
@@ -189,6 +185,7 @@ pre code {
   height: 100px;
   display: flex;
   align-items: center;
+  font-size: 14px;
 }
 
 footer .face {
@@ -210,6 +207,7 @@ body.home .lede {
 
 body.page .lede {
   font-size: var(--stepUp2);
+  line-height: 36px;
 }
 
 body.page .note {
@@ -217,7 +215,6 @@ body.page .note {
   margin-bottom: 36px;
   font-style: italic;
   color: #777;
-  /* font-family: "IBM Plex Serif", "Georgia", Times, serif; */
 }
 
 div.hero {
@@ -240,10 +237,6 @@ div.hero > .credit {
   margin-right: auto;
   color: #777;
   padding-top: 0.5em;
-}
-
-body.page li {
-  line-height: 150%;
 }
 
 body.page p img {
