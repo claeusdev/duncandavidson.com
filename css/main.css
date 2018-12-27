@@ -144,6 +144,7 @@ pre code {
   padding-right: var(--sidePagePadding);
   padding-left: var(--sidePagePadding);
   height: 50px;
+  font-size: 15px;
 }
 
 #nav a,
@@ -161,6 +162,7 @@ pre code {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-size: 15px;
 }
 
 #tools a {
