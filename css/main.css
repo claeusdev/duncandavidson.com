@@ -5,7 +5,6 @@
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
 
 :root {
-  --columnWidth: 550px;
   --heroImageWidth: calc(var(--columnWidth) * 1.2);
   --baseFontSize: 1rem;
   --monoFontSize: 13px;
@@ -186,6 +185,10 @@ pre code {
   display: flex;
   align-items: center;
   font-size: 14px;
+}
+
+.face .text p {
+  font-size: 15px;
 }
 
 footer .face {
