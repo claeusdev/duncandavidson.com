@@ -1,0 +1,28 @@
+{% set class="default" %}
+{% if post.data.photo %}
+{% set class="photo" %}
+{% endif %}
+
+<div class="post {{ class }}">
+
+{% if post.data.title %}
+<h1>{{ post.data.title }}</h1>
+{% endif %}
+
+{% if post.data.photo %}
+<div class="photo">
+<img src="{{ post.data.photo }}">
+{% if post.data.caption %}
+<div class="caption"> {{ post.data.caption | safe }}</div>
+{% endif %}
+</div>
+{% endif %}
+
+{{ post.templateContent | safe }} 
+
+{% if blogindex %}
+<div class="meta"><a href="{{ post.url }}">#</a></div>
+{% else %}
+<!-- I want navigation in here someday... -->
+{% endif %}
+</div>

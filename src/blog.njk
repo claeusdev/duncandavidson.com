@@ -1,0 +1,23 @@
+---
+layout: main
+body: blog
+---
+
+<h1>Blog</h1>
+
+{% set lastdate = "" %}
+{% set blogindex = true %}
+
+{% for post in collections.post | reverse %}
+
+{% set currentdate = post.date | displayDate %}
+{% if lastdate != currentdate %}
+<div class="date">
+{{ currentdate }}
+</div>
+{% set lastdate = currentdate %}
+{% endif %}
+
+{% include "post-partial.njk" %}
+
+{% endfor %}

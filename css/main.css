@@ -21,7 +21,7 @@
 @custom-media --narrow-window (max-width: 632px);
 
 html {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -89,6 +89,8 @@ blockquote {
 
 blockquote > p {
   font-style: italic;
+  color: #777;
+  border-left: 1px solid #999;
 }
 
 li,
@@ -203,8 +205,20 @@ footer .face {
   margin-top: 18px;
 }
 
+.post header .date {
+  font-size: var(--stepDown1);
+  margin-top: 18px;
+}
+
 .page header .date + h1 {
   margin-top: 0;
+}
+
+.post .meta {
+  font-size: var(--stepDown1);
+  max-width: var(--columnWidth);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body.home .lede {
@@ -224,7 +238,37 @@ body.page .note {
   color: #777;
 }
 
-div.hero {
+body.blog .date {
+  max-width: var(--columnWidth);
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+body.blog .post h1 {
+  font-size: var(--stepUp2);
+  margin-bottom: 0;
+}
+
+body.blog .post + .post {
+  margin-top: 6rem;
+}
+
+body.blog .post + .date {
+  margin-top: 6rem;
+}
+
+body.blog .post.photo .photo {
+  margin-bottom: 1rem;
+}
+
+body.blog .post.default p:only-of-type {
+  font-size: var(--stepUp1);
+  line-height: 1.8rem;
+}
+
+div.hero,
+div.photo {
   width: 100%;
   max-width: var(--heroImageWidth);
   margin-left: auto;
@@ -232,11 +276,13 @@ div.hero {
   margin-bottom: 42px;
 }
 
-div.hero > img {
+div.hero > img,
+div.photo > img {
   width: 100%;
 }
 
-div.hero > .credit {
+div.hero > .credit,
+div.photo > .caption {
   font-size: var(--stepDown1);
   text-align: left;
   max-width: var(--columnWidth);
