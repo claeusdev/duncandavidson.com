@@ -11,6 +11,15 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  let markdownIt = require("markdown-it");
+  let options = {
+    html: true,
+    typographer: true
+  };
+  let markdownLib = markdownIt(options);
+
+  eleventyConfig.setLibrary("md", markdownLib);
+
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
