@@ -242,7 +242,7 @@ body.blog .date {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
-  font-weight: bolder;
+  color: #777;
 }
 
 body.blog .post h1 {
@@ -251,7 +251,7 @@ body.blog .post h1 {
 }
 
 body.blog .post + .post {
-  margin-top: 6rem;
+  margin-top: 3rem;
 }
 
 body.blog .post + .date {
