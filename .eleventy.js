@@ -46,6 +46,28 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  eleventyConfig.addFilter("parseDateFromYearMonth", function(value) {
+    return new Date(value + "/01");
+  });
+
+  eleventyConfig.addFilter("archiveHeaderDate", function(value) {
+    var options = {
+      year: "numeric",
+      month: "long"
+    };
+    if (value) {
+      return value.toLocaleDateString("en-US", options);
+    } else {
+      return "";
+    }
+  });
+
+  eleventyConfig.addFilter("blogPermalink", function(value) {
+    // /posts/2018/12/blogging/ -> /blog/2018/12#blogging
+    let p = value.split("/");
+    return "/blog/" + p[2] + "/" + p[3] + "#" + p[4];
+  });
+
   return {
     dir: {
       input: "src",

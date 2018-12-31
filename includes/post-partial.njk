@@ -3,7 +3,7 @@
 {% set class="photo" %}
 {% endif %}
 
-<div class="post {{ class }}">
+<div class="post {{ class }}" id="{{ post.fileSlug }}">
 
 {% if post.data.title %}
 <h1>{{ post.data.title }}</h1>
@@ -21,7 +21,7 @@
 {{ post.templateContent | safe }} 
 
 {% if blogindex %}
-<div class="meta"><a href="{{ post.url }}">#</a></div>
+<div class="meta"><a href="{{ post.url | blogPermalink }}"><i class="icon-link"></i></a></div>
 {% else %}
 <!-- I want navigation in here someday... -->
 {% endif %}

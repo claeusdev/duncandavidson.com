@@ -1,5 +1,6 @@
 @import "@csstools/normalize.css";
 @import "source-sans.css";
+@import "fontello.css";
 @import "code.css";
 
 /*!  duncandavidson.com | github.com/duncan/duncandavidson.com */
@@ -215,10 +216,10 @@ footer .face {
 }
 
 .post .meta {
-  font-size: var(--stepDown1);
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
+  text-align: right;
 }
 
 body.home .lede {
@@ -262,10 +263,10 @@ body.blog .post.photo .photo {
   margin-bottom: 1rem;
 }
 
-body.blog .post.default p:only-of-type {
+/* body.blog .post.default p:only-of-type {
   font-size: var(--stepUp1);
   line-height: 1.8rem;
-}
+} */
 
 div.hero,
 div.photo {
