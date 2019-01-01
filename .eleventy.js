@@ -11,6 +11,15 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  let markdownIt = require("markdown-it");
+  let options = {
+    html: true,
+    typographer: true
+  };
+  let markdownLib = markdownIt(options);
+
+  eleventyConfig.setLibrary("md", markdownLib);
+
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
@@ -35,6 +44,39 @@ module.exports = function(eleventyConfig) {
     } else {
       return "";
     }
+  });
+
+  eleventyConfig.addFilter("parseDateFromYearMonth", function(value) {
+    return new Date(value + "/01");
+  });
+
+  eleventyConfig.addFilter("archiveHeaderDate", function(value) {
+    var options = {
+      year: "numeric",
+      month: "long"
+    };
+    if (value) {
+      return value.toLocaleDateString("en-US", options);
+    } else {
+      return "";
+    }
+  });
+
+  eleventyConfig.addFilter("blogPermalink", function(value) {
+    // /posts/2018/12/blogging/ -> /blog/2018/12#blogging
+    let p = value.split("/");
+    return "/blog/" + p[2] + "/" + p[3] + "#" + p[4];
+  });
+
+  eleventyConfig.addFilter("archiveMonthDate", function(value) {
+    // /blog/2019/01/ -> January 2019
+    let p = value.split("/");
+    let d = new Date(p[2] + "/" + p[3] + "/01");
+    var options = {
+      year: "numeric",
+      month: "long"
+    };
+    return d.toLocaleDateString("en-US", options);
   });
 
   return {

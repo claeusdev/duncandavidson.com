@@ -1,0 +1,54 @@
+---
+layout: main
+body: blog
+pagination: 
+  data: months
+  size: 1
+months:
+  - 2018/12
+  - 2019/01
+permalink: blog/{{ pagination.items[0] }}/index.html
+---
+
+{% set slug = pagination.items[0] %}
+
+{% set date = slug | parseDateFromYearMonth %}
+
+<h1>{{date | archiveHeaderDate }}</h1>
+
+{% set posts = collections.post %}
+
+{% set lastdate = "" %}
+{% set blogindex = true %}
+
+{% for post in posts %}
+
+{% if post.url.startsWith("/posts/" + slug ) %}
+
+{% set currentdate = post.date | displayDate %}
+{% if lastdate != currentdate %}
+<div class="date">
+{{ currentdate }}
+</div>
+{% set lastdate = currentdate %}
+{% endif %}
+
+{% include "post-partial.njk" %}
+
+{% endif %}
+{% endfor %}
+
+<div class="blogarchivenav">
+{% if pagination.previousPageHref %}
+<div class="prev">
+ <a href="{{ pagination.previousPageHref }}"><i class="icon-left-circled"></i> {{ pagination.previousPageHref | archiveMonthDate }}</a>
+</div>
+{% endif %}
+{% if pagination.nextPageHref %}
+<div class="next">
+<a href="{{ pagination.nextPageHref }}">{{ pagination.nextPageHref | archiveMonthDate}} <i class="icon-right-circled"></i></a>
+</div>
+{% endif %}
+</div>
+
+{% include "face.njk" %}

@@ -1,0 +1,17 @@
+---
+layout: main
+body: post
+---
+
+{% set post = {
+    'data': {
+        'title': title,
+        'photo': photo,
+        'caption': caption
+    },
+    'templateContent': content | safe
+} %}
+{% include "post-partial.njk" %}
+<footer>
+{% include "face.njk" %}
+</footer>
