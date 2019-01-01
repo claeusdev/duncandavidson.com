@@ -21,6 +21,12 @@
   force = true
 
 [[redirects]]
+  from = "/index.xml"
+  to = "https://duncandavidson.com/feed.xml"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/atom*"
   to = "https://duncandavidson.com/feed.xml"
   status = 301
