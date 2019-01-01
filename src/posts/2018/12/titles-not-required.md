@@ -1,6 +1,6 @@
 ---
 date: 2018-12-29
-title: Titles not required
+title: Titles optional
 ---
 
 As I build up this iteration of my blog, I'm setting it up without the hard requirement that every post has a title. That's a change from almost every blog system that I've used or wrote over the years.
