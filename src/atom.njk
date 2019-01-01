@@ -1,0 +1,43 @@
+---
+permalink: /feed.xml
+metadata:
+  title: Duncan Davidson
+  url: https://duncandavidson.com/
+  author:
+    name: Duncan Davidson
+    email: me@duncandavidson.com
+  feed:
+    subtitle: Posts by Duncan Davidson
+    filename: feed.xml
+    path: feed/feed.xml
+    url: https://duncandavidson.com/feed.xml
+    id: https://duncandavidson.com/
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
+  <link href="{{ metadata.feed.url }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ collections.post | rssLastUpdatedDate }}</updated>
+  <id>{{ metadata.feed.id }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    <email>{{ metadata.author.email }}</email>
+  </author>
+  {%- for post in collections.post %}
+  {%- set absolutePostUrl %}{{ post.url | blogPermalink | url | absoluteUrl(metadata.url) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}"/>
+    <updated>{{ post.date | rssDate }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    {%- if post.data.photo %}
+    {%- set content = '<img src="' + post.data.photo +'"><br><p>' +  post.data.caption + '</p>' + post.templateContent %}
+    {%- else %}
+    {%- set content = post.templateContent %}
+    {%- endif %}
+    <content type="html">{{ content | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>
