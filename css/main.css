@@ -27,7 +27,9 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #f9f9f9;
   color: #333;
@@ -148,6 +150,7 @@ pre code {
   padding-left: var(--sidePagePadding);
   height: 50px;
   font-size: 15px;
+  color: #777;
 }
 
 #nav a,
@@ -166,6 +169,7 @@ pre code {
   margin-right: auto;
   text-align: left;
   font-size: 15px;
+  color: #777;
 }
 
 #tools a {
@@ -219,7 +223,14 @@ footer .face {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
-  text-align: right;
+  text-align: left;
+  font-size: 0.8rem;
+  padding-left: var(--sidePagePadding);
+  padding-right: var(--sidePagePadding);
+}
+
+.post .meta a {
+  color: #777;
 }
 
 body.home .lede {
@@ -244,6 +255,8 @@ body.blog .date {
   margin-left: auto;
   margin-right: auto;
   color: #777;
+  padding-left: var(--sidePagePadding);
+  padding-right: var(--sidePagePadding);
 }
 
 body.blog .post h1 {
@@ -261,6 +274,31 @@ body.blog .post + .date {
 
 body.blog .post.photo .photo {
   margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+body.blog .blogarchivenav {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 36px;
+  max-width: var(--columnWidth);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--sidePagePadding);
+  padding-right: var(--sidePagePadding);
+}
+
+body.blog .blogarchivenav a {
+  text-decoration: none;
+  color: #777;
+}
+
+body.blog .blogarchivenav .next {
+  float: right;
+}
+
+body.blog .blogarchivenav .prev {
+  float: left;
 }
 
 /* body.blog .post.default p:only-of-type {
@@ -291,6 +329,8 @@ div.photo > .caption {
   margin-right: auto;
   color: #777;
   padding-top: 0.5em;
+  padding-left: var(--sidePagePadding);
+  padding-right: var(--sidePagePadding);
 }
 
 body.page p img {

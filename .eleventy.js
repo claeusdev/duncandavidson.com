@@ -68,6 +68,17 @@ module.exports = function(eleventyConfig) {
     return "/blog/" + p[2] + "/" + p[3] + "#" + p[4];
   });
 
+  eleventyConfig.addFilter("archiveMonthDate", function(value) {
+    // /blog/2019/01/ -> January 2019
+    let p = value.split("/");
+    let d = new Date(p[2] + "/" + p[3] + "/01");
+    var options = {
+      year: "numeric",
+      month: "long"
+    };
+    return d.toLocaleDateString("en-US", options);
+  });
+
   return {
     dir: {
       input: "src",

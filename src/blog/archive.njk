@@ -11,9 +11,6 @@ permalink: blog/{{ pagination.items[0] }}/index.html
 ---
 
 {% set slug = pagination.items[0] %}
-<p>slug: {{ slug }}
-next: <a href="{{ pagination.nextPageHref }}">{{ pagination.nextPageHref }}</a>
-prev: <a href="{{ pagination.previousPageHref }}">{{ pagination.previousPageHref }}</a></p>
 
 {% set date = slug | parseDateFromYearMonth %}
 
@@ -40,3 +37,18 @@ prev: <a href="{{ pagination.previousPageHref }}">{{ pagination.previousPageHref
 
 {% endif %}
 {% endfor %}
+
+<div class="blogarchivenav">
+{% if pagination.previousPageHref %}
+<div class="prev">
+ <a href="{{ pagination.previousPageHref }}"><i class="icon-left-circled"></i> {{ pagination.previousPageHref | archiveMonthDate }}</a>
+</div>
+{% endif %}
+{% if pagination.nextPageHref %}
+<div class="next">
+<a href="{{ pagination.nextPageHref }}">{{ pagination.nextPageHref | archiveMonthDate}} <i class="icon-right-circled"></i></a>
+</div>
+{% endif %}
+</div>
+
+{% include "face.njk" %}
