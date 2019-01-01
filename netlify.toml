@@ -7,3 +7,21 @@
   to = "https://duncandavidson-api.azurewebsites.net/api/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/rss*"
+  to = "https://duncandavidson.com/feed.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.rss"
+  to = "https://duncandavidson.com/feed.xml"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/atom*"
+  to = "https://duncandavidson.com/feed.xml"
+  status = 301
+  force = true
