@@ -231,6 +231,7 @@ footer .face {
 
 .post .meta a {
   color: #777;
+  text-decoration: none;
 }
 
 body.home .lede {

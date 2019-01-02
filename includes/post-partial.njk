@@ -21,7 +21,7 @@
 {{ post.templateContent | safe }} 
 
 {% if blogindex %}
-<div class="meta"><a href="{{ post.url | blogPermalink }}"><i class="icon-link"></i></a></div>
+<div class="meta"><a href="{{ post.url | blogPermalink }}"><i class="icon-clock"></i>{{ post.date | clockTime}}</div>
 {% else %}
 <!-- I want navigation in here someday... -->
 {% endif %}
