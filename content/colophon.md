@@ -11,7 +11,9 @@ The image of Duncan with camera which appears on the front page of this site and
 
 ## Fonts
 
-[Source Sans Pro](https://adobe-fonts.github.io/source-sans-pro/) by Paul D. Hunt is used as the font family throughout this site. The font is copyright Adobe and is used under the terms of the [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-sans-pro/blob/release/LICENSE.txt). The fonts are self-hosted with the help of the [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/).
+[Source Sans Pro](https://adobe-fonts.github.io/source-sans-pro/) by Paul D. Hunt is used as the text font family throughout this site. The font is copyright Adobe and is used under the terms of the [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-sans-pro/blob/release/LICENSE.txt). The fonts are self-hosted with the help of the [Google Webfonts Helper](https://google-webfonts-helper.herokuapp.com/).
+
+Icons used throughout are from [Font Awesome](https://fontawesome.com/), and is used under the terms of the [SIL Open Font License 1.1](https://fontawesome.com/license/free). The font is subsetted and self-hosted with the help of [Fontello](http://fontello.com/).
 
 ## Infrastructure
 
