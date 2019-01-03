@@ -1,18 +1,8 @@
-const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPlugin(syntaxHighlight);
-  eleventyConfig.addPlugin(pluginRss);
-
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
-  });
-
   let markdownIt = require("markdown-it");
   let options = {
     html: true,
@@ -21,6 +11,32 @@ module.exports = function(eleventyConfig) {
   let markdownLib = markdownIt(options);
 
   eleventyConfig.setLibrary("md", markdownLib);
+
+  eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("fonts");
+
+  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addFilter("cssmin", require("./filters/cssmin.js"));
+  eleventyConfig.addFilter("displayDate", require("./filters/displayDate.js"));
+  eleventyConfig.addFilter(
+    "parseDateFromYearMonth",
+    require("./filters/parseDateFromYearMonth.js")
+  );
+  eleventyConfig.addFilter(
+    "archiveHeaderDate",
+    require("./filters/archiveHeaderDate.js")
+  );
+  eleventyConfig.addFilter(
+    "blogPermalink",
+    require("./filters/blogPermalink.js")
+  );
+  eleventyConfig.addFilter(
+    "archiveMonthDate",
+    require("./filters/archiveMonthDate.js")
+  );
+  eleventyConfig.addFilter("clockTime", require("./filters/clockTime.js"));
 
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.endsWith(".html")) {
@@ -32,64 +48,6 @@ module.exports = function(eleventyConfig) {
       return minified;
     }
     return content;
-  });
-
-  eleventyConfig.addFilter("displayDate", function(value) {
-    var options = {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric"
-    };
-    if (value) {
-      return value.toLocaleDateString("en-US", options);
-    } else {
-      return "";
-    }
-  });
-
-  eleventyConfig.addFilter("parseDateFromYearMonth", function(value) {
-    return new Date(value + "/01");
-  });
-
-  eleventyConfig.addFilter("archiveHeaderDate", function(value) {
-    var options = {
-      year: "numeric",
-      month: "long"
-    };
-    if (value) {
-      return value.toLocaleDateString("en-US", options);
-    } else {
-      return "";
-    }
-  });
-
-  eleventyConfig.addFilter("blogPermalink", function(value) {
-    // /posts/2018/12/blogging/ -> /blog/2018/12#blogging
-    let p = value.split("/");
-    return "/blog/" + p[2] + "/" + p[3] + "#" + p[4];
-  });
-
-  eleventyConfig.addFilter("archiveMonthDate", function(value) {
-    // /blog/2019/01/ -> January 2019
-    let p = value.split("/");
-    let d = new Date(p[2] + "/" + p[3] + "/01");
-    var options = {
-      year: "numeric",
-      month: "long"
-    };
-    return d.toLocaleDateString("en-US", options);
-  });
-
-  eleventyConfig.addFilter("clockTime", function(value) {
-    var options = {
-      timeZone: "UTC",
-      hour12: false,
-      hour: "2-digit",
-      minute: "2-digit",
-      timeZoneName: "short"
-    };
-    return value.toLocaleTimeString("en-US", options);
   });
 
   return {
