@@ -8,7 +8,7 @@ body: blog
 {% set lastdate = "" %}
 {% set blogindex = true %}
 
-{% for post in collections.post | reverse %}
+{% for post in collections.post | reverse | limit(10) %}
 
 {% set currentdate = post.date | displayDate %}
 {% if lastdate != currentdate %}

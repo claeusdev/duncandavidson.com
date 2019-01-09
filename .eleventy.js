@@ -37,6 +37,7 @@ module.exports = function(eleventyConfig) {
     require("./filters/archiveMonthDate.js")
   );
   eleventyConfig.addFilter("clockTime", require("./filters/clockTime.js"));
+  eleventyConfig.addFilter("limit", require("./filters/limit.js"));
 
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     if (outputPath.endsWith(".html")) {
