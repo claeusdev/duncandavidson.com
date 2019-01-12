@@ -221,6 +221,7 @@ footer .face {
   max-width: var(--columnWidth);
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
   text-align: left;
   font-size: 0.8rem;
   padding-left: var(--sidePagePadding);
