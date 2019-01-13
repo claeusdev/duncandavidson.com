@@ -233,6 +233,10 @@ footer .face {
   text-decoration: none;
 }
 
+.post img {
+  max-width: 100%;
+}
+
 body.home .lede {
   font-size: var(--stepUp2);
   line-height: 36px;
