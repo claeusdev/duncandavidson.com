@@ -1,5 +1,5 @@
 ---
-2019-01-14T09:20:00.0+01:00
+date: 2019-01-14T09:20:00.0+01:00
 ---
 
 Back in the late 90s when the portal wars were going strong, it seemed apparent that syndication was going to be the future of the web and RSS was going to be key. It didn’t work out that way. [Sinclair Target writes about the rise and fall of RSS](https://motherboard.vice.com/en_us/article/a3mm4z/the-rise-and-demise-of-rss?utm_source=pocket&utm_medium=email&utm_campaign=pockethits) on Motherboard:
