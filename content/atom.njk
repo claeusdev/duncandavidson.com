@@ -33,9 +33,11 @@ metadata:
     <updated>{{ post.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
     {%- if post.data.photo %}
-    {%- set content = '<img src="' + post.data.photo +'"><br><p>' +  post.data.caption + '</p>' + post.templateContent %}
+      {%- set content = '<img src="' + post.data.photo +'"><br><p>' +  post.data.caption + '</p>' + post.templateContent %}
+    {%- elif post.data.youtube %}
+      {%- set content = '<iframe width="560" height="315" src="https://www.youtube.com/embed/' + post.data.youtube + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p>' + post.data.caption + '</p>' + post.templateContent  %}
     {%- else %}
-    {%- set content = post.templateContent %}
+      {%- set content = post.templateContent %}
     {%- endif %}
     <content type="html">{{ content | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
