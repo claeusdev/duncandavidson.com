@@ -1,6 +1,8 @@
 {% set class="default" %}
 {% if post.data.photo %}
 {% set class="photo" %}
+{% elif post.data.youtube %}
+{% set class="youtube" %}
 {% endif %}
 
 <div class="post {{ class }}" id="{{ post.fileSlug }}">
@@ -12,6 +14,17 @@
 {% if post.data.photo %}
 <div class="photo">
 <img src="{{ post.data.photo }}">
+{% if post.data.caption %}
+<div class="caption"> {{ post.data.caption | safe }}</div>
+{% endif %}
+</div>
+{% endif %}
+
+{% if post.data.youtube %}
+<div class="youtube">
+<div class="video-container">
+<iframe width="660" height="371" src="https://www.youtube.com/embed/{{ post.data.youtube }}?modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 {% if post.data.caption %}
 <div class="caption"> {{ post.data.caption | safe }}</div>
 {% endif %}

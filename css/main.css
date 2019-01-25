@@ -276,7 +276,8 @@ body.blog .post + .date {
   margin-top: 6rem;
 }
 
-body.blog .post.photo .photo {
+body.blog .post.photo .photo,
+.post.youtube {
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
@@ -311,12 +312,30 @@ body.blog .blogarchivenav .prev {
 } */
 
 div.hero,
-div.photo {
+div.photo,
+div.youtube {
   width: 100%;
   max-width: var(--heroImageWidth);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 42px;
+  /* margin-bottom: 42px; */
+}
+
+div.youtube .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+div.youtube .video-container iframe,
+div.youtube .video-container object,
+div.youtube .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 div.hero > img,
@@ -325,7 +344,8 @@ div.photo > img {
 }
 
 div.hero > .credit,
-div.photo > .caption {
+div.photo > .caption,
+div.youtube > .caption {
   font-size: var(--stepDown1);
   text-align: left;
   max-width: var(--columnWidth);
