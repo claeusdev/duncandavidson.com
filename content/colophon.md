@@ -11,7 +11,7 @@ The image of Duncan with camera which appears on the front page of this site and
 
 ## Icons
 
-Icons used throughout are from the[Font Awesome](https://fontawesome.com/), and are used under the terms of the [SIL Open Font License 1.1](https://fontawesome.com/license/free). The font is subsetted and self-hosted with the help of [Fontello](http://fontello.com/).
+Icons used throughout are from the [Font Awesome](https://fontawesome.com/), and are used under the terms of the [SIL Open Font License 1.1](https://fontawesome.com/license/free). The font is subsetted and self-hosted with the help of [Fontello](http://fontello.com/).
 
 ## Infrastructure
 
